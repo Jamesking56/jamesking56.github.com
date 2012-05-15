@@ -1,0 +1,83 @@
+/*============================================================ Main elements */
+
+body { background: white; padding: 20% 0 5% 0; font-family: "Raleway" !important; font-size: 138%; }
+
+a:hover { text-decoration: none; }
+
+div.clear { clear: both; }
+
+div.container { width: 970px; }
+
+/*============================================================ Greeter */
+
+h1.greeting { display: none; font-weight: 100; font-size: 3.4em; line-height: 1.2em; }
+
+h1.greeting span { display: none; }
+
+h2.subtext { display: none; color: rgb(150,150,150); font-weight: 100; font-size: 2.45em; line-height: 1.2em; }
+
+/*============================================================ Loader */
+
+div.loader { display: none; position: relative; top: 4em; width: 10.8em; height: 9.3em; margin: 0 auto; color: rgb(150,150,150); }
+
+div.loader i { display: block; text-align: center; }
+
+div.loader div { position: relative; display: block; }
+
+div.cog-small { float: left; font-size: 5.4em; width: 1em; height: 1em; -webkit-animation: spin 2000ms infinite linear;  -moz-animation: spin 2000ms infinite linear; -ms-animation: spin 2000ms infinite linear; }
+
+div.cog-small i { line-height: 1em; }
+
+div.cog-large { float: right; top: -0.5em; font-size: 7.7em; width: 1em; height: 1em; -webkit-animation: spinoff 2000ms infinite linear; -moz-animation: spinoff 2000ms infinite linear; -ms-animation: spinoff 2000ms infinite linear; }
+
+div.cog-large i { line-height: 1em; }
+
+@-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); } }
+
+@-webkit-keyframes spinoff { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(-360deg); } }
+
+@-moz-keyframes spin { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(360deg); } }
+
+@-moz-keyframes spinoff { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(-360deg); } }
+
+@-ms-keyframes spin { from { -ms-transform: rotate(0deg); } to { -ms-transform: rotate(360deg); } }
+
+@-ms-keyframes spinoff { from { -ms-transform: rotate(0deg); } to { -ms-transform: rotate(-360deg); } }
+
+/*============================================================ Contact */
+
+div.contact { display: none; margin: 2.5em 0 1.5em; }
+
+div.contact .header { font-weight: 100; }
+
+div.contact .header b { font-weight: bold; }
+
+div.contact .bio { margin: 0.5em 0 0; }
+
+div.contact .email { margin: 0.5em 0 0; }
+
+div.contact .social { font-size: 12px; }
+
+div.contact .social a { float: left; margin: 1.5em 0.5em 0 0; }
+
+/*============================================================ Twitter */
+
+div.twitter { display: none; margin: 0 0 1.5em 0; }
+
+div.twitter:hover svg#twitter-bird { -webkit-transform: rotateZ(360deg); -moz-transform: rotateZ(360deg); transform: rotateZ(360deg); }
+
+div.twitter p { font-weight: 100; font-size: 1em; line-height: 1.4em; margin-top: 1em; margin-bottom: 0.3em; }
+
+svg#twitter-bird { height: 6em; -webkit-transition: -webkit-transform 0.4s ease-out; -moz-transition: -moz-transform 0.4s ease-out; transition: transform 0.4s ease-out;}
+
+div#twitter_update_list { list-style: none; font-weight: 100; }
+
+div#twitter_update_list li { line-height: 1.2em; }
+
+/*============================================================ Content */
+
+div.content { display: none; }
+
+div.content .header { font-weight: 100; }
+
+div.repos .row-fluid { margin-bottom: 1em; }
