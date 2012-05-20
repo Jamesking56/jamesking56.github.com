@@ -18,4 +18,17 @@ jQuery(window).load(function() {
 			});
 		});
 	});
+	
+	jQuery.ajax({
+		url: "src/github.php"
+	}).done(function(data){
+		if(data == "yes")
+		{
+			jQuery('#hire').html("<a href='http://www.jamesking56.co.uk/hire/' id='hire-available'>Available for hire</a>");
+		}
+		else
+		{
+			jQuery('#hire').html("<span id='hire-unavailable'>Unavailable for hire</span>");
+		}
+	});
 });

@@ -81,3 +81,11 @@ div.content { display: none; }
 div.content .header { font-weight: 100; }
 
 div.repos .row-fluid { margin-bottom: 1em; }
+
+/*============================================================ Hire */
+#hire-available {
+	color: green;
+}
+#hire-unavailable {
+	color: red;
+}
