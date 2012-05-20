@@ -1,4 +1,5 @@
 <?php
+header('Access-Control-Allow-Origin: *');
 
 function objectToArray($d) {
 		if (is_object($d)) {
