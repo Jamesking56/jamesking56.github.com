@@ -20,7 +20,7 @@ jQuery(window).load(function() {
 	});
 	
 	jQuery.ajax({
-		url: "http://www.jamesking56.co.uk/github.php"
+		url: "http://www.jamesking56.co.uk/resources/github.php"
 	}).done(function(data){
 		alert(data);
 		if(data == "yes")
