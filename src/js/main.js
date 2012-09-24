@@ -22,7 +22,6 @@ jQuery(window).load(function() {
 	jQuery.ajax({
 		url: "http://www.jamesking56.co.uk/resources/github.php"
 	}).done(function(data){
-		alert(data);
 		if(data == "yes")
 		{
 			jQuery('#hire').html("<a href='http://www.jamesking56.co.uk/hire/' id='hire-available'>Available for hire</a>");
